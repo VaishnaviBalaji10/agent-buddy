@@ -1,0 +1,25 @@
+<div class="row">
+        <div class="col-12 col-md-12 p-3 p-md-5 bg-light border border-white d-flex flex-column align-items-center align-items-md-start">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">First</th>
+                        <th scope="col">Last</th>
+                        <th scope="col">Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let agent of agents; let i = index">
+                        <th scope="row">{{i+1}}</th>
+                        <td contenteditable='true'>{{agent.actor_name}}</td>
+                        <td>{{agent.actor_name}}</td>
+                        <td>{{agent.character_name}}</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
