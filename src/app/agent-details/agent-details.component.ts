@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import Agent from './../agent';
-import agentDetails from 'AgentDetailsService';
 
 @Component({
   selector: 'app-agent-details',
